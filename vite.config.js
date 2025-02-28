@@ -5,6 +5,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import { createStyleImportPlugin } from 'vite-plugin-style-import'
 
 export default defineConfig({
+  base: '/my-vue3-app/',
   plugins: [
     vue(),
     Components({
