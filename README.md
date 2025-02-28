@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# 说明
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+这是一个简易的自我介绍的应用 为了完成面试的任务
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# 任务
+
+1.使用vite脚手架构建vue3应用，并集成vue-router，element-plus
+
+2.配置vue-router，vite.config.js，使得/重定向到/search中，element-plus可以自定义主题色
+
+3.使用vue3语法和element-plus来完成/search界面
+
+# 部署
+
+```
+
+pnpm i
+
+pnpm run dev
+
+```
+
+
